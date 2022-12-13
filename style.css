@@ -1,0 +1,8 @@
+#Grid{
+    display: grid;
+    grid-template-columns: repeat(16, auto);
+}
+.squarediv{
+    border-style: solid;
+    padding: 40%;
+}
