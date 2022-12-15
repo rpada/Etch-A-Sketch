@@ -1,6 +1,22 @@
+#title{
+    text-align: center;
+}
+#main-container{
+    display: flex;
+    justify-content: center;
+}
 #Grid{
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(16, auto);
+}
+
+#buttons{
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 15%;
+    padding-right: 5%;
+    gap: 10%;
 }
 .squarediv{
     border-style: solid;
